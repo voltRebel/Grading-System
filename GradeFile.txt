@@ -1,0 +1,51 @@
+------------------------------------------------------- 
+                   Student Exam Data                    
+--------------------------------------------------------
+
+Operator's Name               : Roach
+Student Full Name             : Mr Michael Korbly Junior
+Student Gender                : Male
+Student Subject               : C++
+Student Class Score           : 25
+Student Exam Score            : 67
+Student Average Score         : 46
+Student Total Score           : 92
+Student Grade                 : A
+--------------------------------------------------------
+                         Data Ended                     
+--------------------------------------------------------
+
+------------------------------------------------------- 
+                   Student Exam Data                    
+--------------------------------------------------------
+
+Operator's Name               : Roach
+Student Full Name             : Miss Ivy Mensah Krakraba
+Student Gender                : Female
+Student Subject               : C++
+Student Class Score           : 30
+Student Exam Score            : 70
+Student Average Score         : 50
+Student Total Score           : 100
+Student Grade                 : A+
+--------------------------------------------------------
+                         Data Ended                     
+--------------------------------------------------------
+
+------------------------------------------------------- 
+                   Student Exam Data                    
+--------------------------------------------------------
+
+Operator's Name               : Henry
+Student Full Name             : Mr Kingsley Kofi Mensah
+Student Gender                : Male
+Student Subject               : c++
+Student Class Score           : 10
+Student Exam Score            : 20
+Student Average Score         : 15
+Student Total Score           : 30
+Student Grade                 : F+ Disappointed
+--------------------------------------------------------
+                         Data Ended                     
+--------------------------------------------------------
+
