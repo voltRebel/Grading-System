@@ -23,11 +23,13 @@ void displayGradeFile()
 	if(!inputFile)
 	{
 		std::cerr <<"Error Opening GradeFile.txt" <<std::endl;
-		return;
+		return 0;
 	}
 	
 	std::cout <<"-------------------- Student Stored Data ----------------------" <<endl;
+	// -- variable declaration with std
 	std::string line;
+	
 	while(std::getline(inputFile, line))
 	{
 		std::cout << line <<std::endl;
@@ -35,8 +37,9 @@ void displayGradeFile()
 	
 	inputFile.close();
 	
-}
 
+	
+}
 
 int main() {
 	// ------ variable declaration ------ //
@@ -110,8 +113,35 @@ int main() {
 				
 		//-- Calling second function
 		displayGradeFile(); 
+		
+		
+		string record;
+		cout <<"Type Record :  To enter a student data     " <<endl;
+		cout <<"TYpe End    :  End to terminate the program" <<endl;
+		cin  >>record;
+	
+			if(record == "Record" || record == "record" || record == "RECORD")
+			{
+				system("CLS");
+				goto Record;
+			}
+			else if(record == "End" || record == "end" || record == "END")
+			{
+				cout <<"----------------------          -------------------- " <<endl;
+				cout <<"                 Terminating Program                 " <<endl;
+				cout <<"----------------------          ---------------------" <<endl;
 				
-		return 0;
+				// -- delaying console for 5 seconds
+				sleep(5);
+				return 0;
+			}
+			else
+			{
+				cout <<"Invalid Input !!! ERROR "            <<endl;
+				cout <<"Program will terminate in 5 seconds" <<endl;
+				sleep(5);
+			}
+	
 	}
 	else
 	{
@@ -372,7 +402,7 @@ Roach :
 			{
 				cout <<"Invalid Input !!! ERROR "            <<endl;
 				cout <<"Program will terminate in 5 seconds" <<endl;
-				
+				sleep(5);
 				return 0;
 			}
 	return 0;
